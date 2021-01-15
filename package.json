@@ -1,5 +1,5 @@
 {
-  "name": "isodd-or-even",
+  "name": "number-oddoreven",
   "version": "1.0.0",
   "description": "a package that return true if the given number is odd or even",
   "main": "index.js",
