@@ -1,11 +1,16 @@
 {
-  "name": "@TSKsmiley/isodd-or-even",
+  "name": "isodd-or-even",
   "version": "1.0.0",
   "description": "a package that return true if the given number is odd or even",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "meme",
+    "useless",
+    "fast"
+  ],
   "author": "Arnar Freyr Ástvaldsson",
   "license": "ISC",
   "dependencies": {
