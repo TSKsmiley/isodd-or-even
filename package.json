@@ -1,18 +1,23 @@
 {
   "name": "number-oddoreven",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a package that return true if the given number is odd or even",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "meme",
-    "useless",
-    "fast"
+    "fast",
+    "number",
+    "odd",
+    "even",
+    "math",
+    "isodd",
+    "iseven",
+    "evenYes"
   ],
   "author": "Arnar Freyr Ástvaldsson",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "camelcase": "^6.2.0",
     "chalk": "^4.1.0",

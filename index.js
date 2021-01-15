@@ -12,7 +12,7 @@ var spaceBar = "-"
 
 
 module.exports = function(num) {
-    console.log(chalk.bgHex("#ff00FF").bold(chalk.blue(Camelcase("-Chalkulating-the-answer" + spaceBar + `${num.toString(num)}`))))
+    console.log(chalk.bgHex("#ff00FF").bold(chalk.blue(Camelcase("[number-oddoreven]-Chalkulating-the-answer" + spaceBar + `${num.toString(num)}`))))
         /* 5 seconds */sleep(1000);
     Oof(!throwErr(num)).Then(()=>{isNum(new Error(Camelcase("Given-parameter-was-not-a-number!")))})
 return !True() ? !True() : True(); //here we(I) use a ternary operator to make sure that our result is always correct
