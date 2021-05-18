@@ -1,13 +1,14 @@
 number - odd or even
 =======================================
 
-Have you ever needed to check if a number is odd or even. Now you can check if it is. 99.9% of the time it will be either odd or even
+At least 99.9% of the time, any number can be odd or even. This uncertainty can be eliminated with `number-oddoreven`. As it sports an incredibly fast, open-ended API, you can solve all even or odd related problems with only 1 line.
 ***
 
 ### List of features
 
-*   See if a number is odd or even
-*   See if a number is odd or even
+*   [x] See if a number is odd or even
+*   [x] See if a number is odd or even
+*   [ ] See if a number is odd or even
 
 ### Download & Installation
 
@@ -17,20 +18,24 @@ $ npm i number-oddoreven
 
 ### Code Demo
 
-importing
+Importing (ready for production)
+```js
+var isoddOrEven = require("number-oddoreven");
+```
+
+Importing (development version)
 ```js
 var isoddOrEven = require("number-oddoreven");
 ```
 
 Example usage
 ```js
-if(isoddOrEven(3)){
+var isoddOrEven = require("number-oddoreven");
+
+if (isoddOrEven(3)) {
     console.log("The number is odd or even!");
 }
 ```
-
-
-
 
 
 ### Authors or Acknowledgments
