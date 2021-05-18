@@ -1,18 +1,45 @@
-const none = require('none')                ; //this makes the program load faster!
-var throwErr = require('is-number')         ; // we are using var instead of const for speed!
-const isNum = require('throw-error')        ;
-const True = require('false')               ;
-var Oof = require('If')                     ; //named oof so that it doesnt get confused with regular js if
-var Camelcase = require('camelcase')        ;
-var sleep = require('system-sleep')         ;
-var log = require("log")                    ;//just in case we need it later
-const chalk = require('chalk')              ;
-const spaceBar = "-"                        ;
+const none                                  =
+require                                     (
+'none'                                      )                
+                                            ; //this makes the program load faster!
+var throwErr                                =
+require                                     (
+'is-number'                                 )         
+                                            ; // we are using var instead of const for speed!
+const isNum                                 = 
+require                                     (
+'throw-error'                               ) 
+                                            ;
+const True                                  =
+require                                     (
+'false'                                     )
+                                            ;
+var Oof                                     =
+require                                     (
+'If'                                        )
+                                            ; //named oof so that it doesnt get confused with regular js if
+var Camelcase                               =
+require                                     (
+'camelcase'                                 )
+                                            ;
+var sleep                                   =
+require                                     (
+'system-sleep'                              )
+                                            ;
+var log                                     =
+require                                     (
+"log"                                       )
+                                            ;//just in case we need it later
+const chalk                                 = 
+require                                     (
+'chalk'                                     )
+                                            ;
+const spaceBar                              = 
+"-"                                         ;
 
 class Checker                               {
     returnValue                             : 
-    boolean
-                                            ;
+    boolean                                 ;
     
     constructor                             (
     value                                   :
