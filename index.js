@@ -38,6 +38,20 @@ exports                                     =
 function                                    (
 num                                         )
                                             {
+    var checker                             =
+    new Checker                             (
+                                            !
+    True                                    (
+                                            ) 
+                                            ?
+    !True                                   (
+                                            )
+                                            :
+    True                                    (
+                                            )
+                                            ; // here we use a ternary operator to make sure that our result is always correct 
+                                              // TODO: add TernaryCompare class for extra performance
+                                            )
     console                                 .
     log                                     (
     chalk
@@ -81,17 +95,10 @@ num                                         )
                                             }
                                             )
     return 
-                                            !
-    True                                    (
-                                            ) 
-                                            ?
-                                        
-    !True                                   (
-                                            )
-                                            :
-    True                                    (
-                                            )
-                                            ; //here we(I) use a ternary operator to make sure that our result is always correct
+    checker                                 .
+    check                                   (
+    num                                     )
+                                            ;
     isNum                                   (
     new Error                               (
     Camelcase                               (
