@@ -1,7 +1,7 @@
 {
   "name": "number-oddoreven",
   "version": "1.0.3",
-  "description": "a package that return true if the given number is odd or even",
+  "description": "A package that returns true if the given number is odd or even. Blazingly fast performance along with an extensive API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
