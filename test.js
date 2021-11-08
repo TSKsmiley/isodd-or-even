@@ -1,6 +1,6 @@
-var isoddOrEven                                     = 
+var isoddOrEven                                     =
 require                                             (
-"./index"                                           )                
+"./index"                                           )
                                                     ;
 console                                             .
 log                                                 (
@@ -13,7 +13,7 @@ isoddOrEven                                         (
 "hello"                                             )
                                                     )
                                                     ;
-                                                    } 
+                                                    }
 catch                                               (
 error                                               )
                                                     {

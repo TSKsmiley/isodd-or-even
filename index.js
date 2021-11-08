@@ -1,14 +1,14 @@
 const none                                  =
 require                                     (
-'none'                                      )                
+'none'                                      )
                                             ; //this makes the program load faster!
 var throwErr                                =
 require                                     (
-'is-number'                                 )         
+'is-number'                                 )
                                             ; // we are using var instead of const for speed!
-const isNum                                 = 
+const isNum                                 =
 require                                     (
-'throw-error'                               ) 
+'throw-error'                               )
                                             ;
 const True                                  =
 require                                     (
@@ -30,38 +30,38 @@ var log                                     =
 require                                     (
 "log"                                       )
                                             ;//just in case we need it later
-const chalk                                 = 
+const chalk                                 =
 require                                     (
 'chalk'                                     )
                                             ;
-const spaceBar                              = 
+const spaceBar                              =
 "-"                                         ;
 
 class Checker                               {
-    returnValue                             : 
+    returnValue                             :
     boolean                                 ;
-    
+
     constructor                             (
     value                                   :
-    boolean                        
+    boolean
                                             )
                                             {
     this                                    .
     returnValue                             =
     value                                   }
-    
+
     check                                   (
     value                                   :
     number                                  )
                                             {
         return this                         .
-        returnValue                         ;    
+        returnValue                         ;
                                             }
                                             }
 
 
 module                                      .
-exports                                     = 
+exports                                     =
 function                                    (
 num                                         )
                                             {
@@ -69,14 +69,14 @@ num                                         )
     new Checker                             (
                                             !
     True                                    (
-                                            ) 
+                                            )
                                             ?
     !True                                   (
                                             )
                                             :
     True                                    (
                                             )
-                                            ; // here we use a ternary operator to make sure that our result is always correct 
+                                            ; // here we use a ternary operator to make sure that our result is always correct
                                               // TODO: add TernaryCompare class for extra performance
                                             )
     console                                 .
@@ -92,9 +92,9 @@ num                                         )
                                             .
     blue                                    (
     Camelcase                               (
-    "[number-oddoreven]-Chalkulating-the-answer" 
-                                            + 
-    spaceBar                                + 
+    "[number-oddoreven]-Chalkulating-the-answer"
+                                            +
+    spaceBar                                +
     `${num.toString(num)}`
                                             )
                                             )
@@ -121,7 +121,7 @@ num                                         )
                                             )
                                             }
                                             )
-    return 
+    return
     checker                                 .
     check                                   (
     num                                     )
