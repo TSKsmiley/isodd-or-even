@@ -125,10 +125,11 @@ num                                         )
                                             )
                                             }
                                             )
-    return
+    return                                  (
     checker                                 .
     check                                   (
     num                                     )
+                                            )
                                             ;
     isNum                                   (
     new Error                               (
