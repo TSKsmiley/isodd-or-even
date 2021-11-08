@@ -1,7 +1,7 @@
 const none                                  =
 require                                     (
 'none'                                      )
-                                            ; //this makes the program load faster!
+                                            ; // this makes the program load faster!
 var throwErr                                =
 require                                     (
 'is-number'                                 )
@@ -17,7 +17,7 @@ require                                     (
 var Oof                                     =
 require                                     (
 'If'                                        )
-                                            ; //named oof so that it doesnt get confused with regular js if
+                                            ; // named oof so that it doesn't get confused with regular js if
 var Camelcase                               =
 require                                     (
 'camelcase'                                 )
@@ -29,7 +29,7 @@ require                                     (
 var log                                     =
 require                                     (
 "log"                                       )
-                                            ;//just in case we need it later
+                                            ; // just in case we need it later
 const chalk                                 =
 require                                     (
 'chalk'                                     )
@@ -129,7 +129,7 @@ num                                         )
     isNum                                   (
     new Error                               (
     Camelcase                               (
-    "HOW DID WE GET HERE?? (Minecraft)"     ) //we camel case, just in case. Get it? ;)
+    "HOW DID WE GET HERE?? (Minecraft)"     ) // we camel case, just in case. Get it? ;)
                                             )
                                             )
                                             ;
