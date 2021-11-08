@@ -80,8 +80,7 @@ num                                         )
                                             )
                                             :
     True                                    (
-                                            )
-                                            ; // here we use a ternary operator to make sure that our result is always correct
+                                            ) // here we use a ternary operator to make sure that our result is always correct
                                               // TODO: add TernaryCompare class for extra performance
                                             )
     console                                 .
@@ -104,6 +103,7 @@ num                                         )
                                             )
                                             )
                                             )
+                                            )
 /* 5 seconds in m(illiseconds) */sleep      (
     1000                                    )
                                             ;
@@ -115,8 +115,7 @@ num                                         )
                                             .
     Then                                    (
                                             (
-                                            )
-                                            =>
+                                            )=>
                                             {
     isNum                                   (
     new Error                               (
