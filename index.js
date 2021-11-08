@@ -38,21 +38,26 @@ const spaceBar                              =
 "-"                                         ;
 
 class Checker                               {
-    returnValue                             :
-    boolean                                 ;
+    /** @type                               {
+    boolean                                 }
+    * */
+    returnValue                             ;
 
     constructor                             (
-    value                                   :
-    boolean
-                                            )
+    /** @type                               {
+    boolean                                 }
+    * */
+    value                                   )
                                             {
     this                                    .
     returnValue                             =
     value                                   }
 
     check                                   (
-    value                                   :
-    number                                  )
+    /** @type                               {
+    number                                 }
+    * */
+    value                                   )
                                             {
         return this                         .
         returnValue                         ;
