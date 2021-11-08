@@ -1,14 +1,14 @@
 const none                                  =
 require                                     (
-'none'                                      )                
-                                            ; //this makes the program load faster!
+'none'                                      )
+                                            ; // this makes the program load faster!
 var throwErr                                =
 require                                     (
-'is-number'                                 )         
+'is-number'                                 )
                                             ; // we are using var instead of const for speed!
-const isNum                                 = 
+const isNum                                 =
 require                                     (
-'throw-error'                               ) 
+'throw-error'                               )
                                             ;
 const True                                  =
 require                                     (
@@ -17,7 +17,7 @@ require                                     (
 var Oof                                     =
 require                                     (
 'If'                                        )
-                                            ; //named oof so that it doesnt get confused with regular js if
+                                            ; // named oof so that it doesn't get confused with regular js if
 var Camelcase                               =
 require                                     (
 'camelcase'                                 )
@@ -29,39 +29,44 @@ require                                     (
 var log                                     =
 require                                     (
 "log"                                       )
-                                            ;//just in case we need it later
-const chalk                                 = 
+                                            ; // just in case we need it later
+const chalk                                 =
 require                                     (
 'chalk'                                     )
                                             ;
-const spaceBar                              = 
+const spaceBar                              =
 "-"                                         ;
 
 class Checker                               {
-    returnValue                             : 
-    boolean                                 ;
-    
+    /** @type                               {
+    boolean                                 }
+    * */
+    returnValue                             ;
+
     constructor                             (
-    value                                   :
-    boolean                        
-                                            )
+    /** @type                               {
+    boolean                                 }
+    * */
+    value                                   )
                                             {
     this                                    .
     returnValue                             =
     value                                   }
-    
+
     check                                   (
-    value                                   :
-    number                                  )
+    /** @type                               {
+    number                                 }
+    * */
+    value                                   )
                                             {
         return this                         .
-        returnValue                         ;    
+        returnValue                         ;
                                             }
                                             }
 
 
 module                                      .
-exports                                     = 
+exports                                     =
 function                                    (
 num                                         )
                                             {
@@ -69,14 +74,13 @@ num                                         )
     new Checker                             (
                                             !
     True                                    (
-                                            ) 
+                                            )
                                             ?
     !True                                   (
                                             )
                                             :
     True                                    (
-                                            )
-                                            ; // here we use a ternary operator to make sure that our result is always correct 
+                                            ) // here we use a ternary operator to make sure that our result is always correct
                                               // TODO: add TernaryCompare class for extra performance
                                             )
     console                                 .
@@ -92,10 +96,11 @@ num                                         )
                                             .
     blue                                    (
     Camelcase                               (
-    "[number-oddoreven]-Chalkulating-the-answer" 
-                                            + 
-    spaceBar                                + 
+    "[number-oddoreven]-Chalkulating-the-answer"
+                                            +
+    spaceBar                                +
     `${num.toString(num)}`
+                                            )
                                             )
                                             )
                                             )
@@ -110,8 +115,7 @@ num                                         )
                                             .
     Then                                    (
                                             (
-                                            )
-                                            =>
+                                            )=>
                                             {
     isNum                                   (
     new Error                               (
@@ -121,15 +125,16 @@ num                                         )
                                             )
                                             }
                                             )
-    return 
+    return                                  (
     checker                                 .
     check                                   (
     num                                     )
+                                            )
                                             ;
     isNum                                   (
     new Error                               (
     Camelcase                               (
-    "HOW DID WE GET HERE?? (Minecraft)"     ) //we camel case, just in case. Get it? ;)
+    "HOW DID WE GET HERE?? (Minecraft)"     ) // we camel case, just in case. Get it? ;)
                                             )
                                             )
                                             ;

@@ -1,10 +1,10 @@
 {
   "name": "number-oddoreven",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package that returns true if the given number is odd or even. Blazingly fast performance along with an extensive API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
   "keywords": [
     "fast",

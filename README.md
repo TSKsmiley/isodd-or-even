@@ -12,7 +12,7 @@ At least 99.9% of the time, any number can be odd or even. This uncertainty can 
 
 ### Download & Installation
 
-```shell 
+```shell
 $ npm i number-oddoreven
 ```
 
@@ -41,7 +41,7 @@ if (isoddOrEven(3)) {
 ### Authors or Acknowledgments
 
 *   Arnar Freyr Ástvaldsson
-*   Anders Nyby Christensen 
+*   Anders Nyby Christensen
 *   Frederik Hammer
 
 ### License
